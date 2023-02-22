@@ -1,0 +1,64 @@
+query PREVIEW_QUERY($id: ID!) {
+  investorLogo(id: $id, idType: ID, asPreview: true) {
+    content
+
+    contentType {
+      node {
+        id
+      }
+    }
+
+    contentTypeName
+    databaseId
+    date
+    dateGmt
+    desiredSlug
+    enclosure
+
+    featuredImage {
+      node {
+        __typename
+        id
+      }
+    }
+
+    featuredImageDatabaseId
+    featuredImageId
+    guid
+    id
+
+    investorLogos {
+      fieldGroupName
+
+      investorLogo {
+        __typename
+        id
+      }
+    }
+
+    isContentNode
+    isTermNode
+
+    lastEditedBy {
+      node {
+        id
+      }
+    }
+
+    link
+    modified
+    modifiedGmt
+    slug
+    status
+
+    template {
+      templateName
+
+      __typename
+    }
+
+    title
+    uri
+    __typename
+  }
+}

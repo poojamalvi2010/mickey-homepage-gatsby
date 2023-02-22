@@ -1,0 +1,68 @@
+query NON_NODE_QUERY {
+  allSettings {
+    discussionSettingsDefaultCommentStatus
+    discussionSettingsDefaultPingStatus
+    generalSettingsDateFormat
+    generalSettingsDescription
+    generalSettingsEmail
+    generalSettingsLanguage
+    generalSettingsStartOfWeek
+    generalSettingsTimeFormat
+    generalSettingsTimezone
+    generalSettingsTitle
+    generalSettingsUrl
+    genesisBlocksGlobalSettingsSettingsGenesisBlocksMailchimpApiKey
+    readingSettingsPageForPosts
+    readingSettingsPageOnFront
+    readingSettingsPostsPerPage
+    readingSettingsShowOnFront
+    writingSettingsDefaultCategory
+    writingSettingsDefaultPostFormat
+    writingSettingsUseSmilies
+  }
+
+  discussionSettings {
+    defaultCommentStatus
+    defaultPingStatus
+  }
+
+  generalSettings {
+    dateFormat
+    description
+    email
+    language
+    startOfWeek
+    timeFormat
+    timezone
+    title
+    url
+  }
+
+  genesisBlocksGlobalSettingsSettings {
+    genesisBlocksMailchimpApiKey
+  }
+
+  readingSettings {
+    pageForPosts
+    pageOnFront
+    postsPerPage
+    showOnFront
+  }
+
+  schemaMd5
+
+  viewer {
+    id
+  }
+
+  wpGatsby {
+    arePrettyPermalinksEnabled
+    isPreviewFrontendOnline
+  }
+
+  writingSettings {
+    defaultCategory
+    defaultPostFormat
+    useSmilies
+  }
+}

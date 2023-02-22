@@ -1,1 +1,3 @@
-# mickey-homepage-gatsby
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<h1>Mickey Home Page</h1>
+<!-- AUTO-GENERATED-CONTENT:END -->

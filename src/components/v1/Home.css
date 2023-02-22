@@ -1,0 +1,279 @@
+* {
+  --tw-shadow: 0 0 transparent;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(17, 83, 158, 0.5);
+  --tw-ring-offset-shadow: 0 0 transparent;
+  --tw-ring-shadow: 0 0 transparent;
+}
+#main {
+  /*background-color: #1c1c1c*/
+  /* background: rgb(0, 0, 0); */
+  /* background: linear-gradient(0deg, rgba(30, 30, 30, 0.99) 0%, rgb(10, 10, 10) 100%); */
+  background-color: #000000;
+}
+
+.dark-gradient-segment {
+  background: rgb(20, 20, 22);
+  background: radial-gradient(
+    circle,
+    rgba(20, 20, 22, 1) 0%,
+    rgba(28, 28, 37, 1) 49%,
+    rgba(55, 60, 71, 1) 100%
+  );
+}
+
+.learn-more {
+  color: white !important;
+}
+
+.main-header {
+  font-size: 5em !important;
+  font-weight: 800 !important;
+  text-align: center;
+  z-index: 100 !important;
+  color: white;
+}
+
+.main-subheader {
+  margin-top: 50px !important;
+  color: rgb(170, 170, 170) !important;
+  /* font-size: 1.7em !important; */
+  font-weight: 400 !important;
+}
+#main .ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input ~ label:before {
+  background-color: orange !important;
+}
+#main .ui.fitted.toggle.checkbox {
+}
+
+.homepage-segment {
+  --tw-shadow: 0px 70px 65px rgba(0, 0, 0, 0.18),
+    0px 30px 30px rgba(0, 0, 0, 0.14), 0px 15px 15px rgba(0, 0, 0, 0.12),
+    0px 10px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
+  --tw-bg-opacity: 1;
+  background: rgba(27, 31, 36, 1) !important;
+  border: 1px solid rgb(17, 16, 16) !important;
+  width: 50%;
+  /* padding: 30px !important; */
+  padding: 0 !important;
+  height: 300px !important;
+  overflow: hidden !important;
+  margin-top: 80px !important;
+  text-align: left !important;
+  font-feature-settings: "ss02" on, "ss01" on;
+  -webkit-font-smoothing: antialiased;
+  --highlight-background: var(--override-base0G, #204062);
+  --highlight-border: var(--override-base0C, #006cca);
+  --prompt-text: var(--override-base07, #0069e6);
+  --cursor-text: var(--override-base00, #24292f);
+  --border: var(--override-base00, rgba(0, 0, 0, 0.6));
+}
+
+.homepage-light-segment {
+  --tw-shadow: 0px 70px 65px rgba(0, 0, 0, 0.18),
+    0px 30px 30px rgba(0, 0, 0, 0.14), 0px 15px 15px rgba(0, 0, 0, 0.12),
+    0px 10px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
+  --tw-bg-opacity: 1;
+  background: rgb(248, 248, 248) !important;
+  border: 1px solid rgb(172, 172, 172) !important;
+  width: 50%;
+  /* padding: 30px !important; */
+  padding: 0 !important;
+  height: 300px !important;
+  overflow: hidden !important;
+  margin-top: 80px !important;
+  text-align: left !important;
+  font-feature-settings: "ss02" on, "ss01" on;
+  -webkit-font-smoothing: antialiased;
+  --highlight-background: var(--override-base0G, #204062);
+  --highlight-border: var(--override-base0C, #69b9ff);
+  --prompt-text: var(--override-base07, #0069e6);
+  --cursor-text: var(--override-base00, #24292f);
+  --border: var(--override-base00, rgba(0, 0, 0, 0.6));
+}
+
+.homepage-form {
+  --tw-shadow: 0px 70px 65px rgba(0, 0, 0, 0.18),
+    0px 30px 30px rgba(0, 0, 0, 0.14), 0px 15px 15px rgba(0, 0, 0, 0.12),
+    0px 10px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow) !important;
+  --tw-bg-opacity: 1;
+  background: rgba(27, 31, 36, 1) !important;
+  border: 1px solid rgb(17, 16, 16) !important;
+  width: 50%;
+  /* padding: 30px !important; */
+  padding: 30px !important;
+  margin-top: 80px !important;
+  text-align: left !important;
+  font-feature-settings: "ss02" on, "ss01" on;
+  -webkit-font-smoothing: antialiased;
+  --highlight-background: var(--override-base0G, #204062);
+  --highlight-border: var(--override-base0C, #69b9ff);
+  --prompt-text: var(--override-base07, #0069e6);
+  --cursor-text: var(--override-base00, #24292f);
+  --border: var(--override-base00, rgba(0, 0, 0, 0.6));
+}
+
+.slide-up,
+.slide-up--initial {
+  -webkit-animation: slide-up 0.6s ease-out;
+  animation: slide-up 0.6s ease-out;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+body {
+  margin: 0;
+  font-family: "Brown", sans-serif !important;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.admin-mode {
+  background-color: orange !important;
+  color: white;
+}
+
+.admin-mode .main-item {
+  color: white !important;
+}
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: "Brown", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+.filter {
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.blur-\[6rem\] {
+  --tw-blur: blur(6rem);
+}
+
+.to-\[\#84EDC1\] {
+  --tw-gradient-to: #1f4c88;
+}
+
+.from-\[\#79C0FF\] {
+  --tw-gradient-from: #005b88;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgba(121, 192, 255, 0));
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.2;
+}
+
+#main input {
+  background-color: rgb(30, 37, 46) !important;
+  color: white !important;
+}
+
+#main ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: rgb(59, 59, 59) !important;
+}
+#main :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(59, 59, 59) !important;
+  opacity: 1;
+}
+#main ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(59, 59, 59) !important;
+  opacity: 1;
+}
+#main :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(59, 59, 59) !important;
+}
+#main ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(59, 59, 59) !important;
+}
+
+#main ::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgb(59, 59, 59) !important;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://mickey.io/">
+
+   <url>
+      <loc>https://mickey.io/</loc>
+   </url>
+   <url>
+      <loc>http://mickey.io/features</loc>
+   </url>
+   <url>
+      <loc>http://mickey.io/company</loc>
+   </url>
+   <url>
+      <loc>http://mickey.io/commodities</loc>
+   </url>
+
+   <url>
+      <loc>https://mickey.io/press-releases</loc>
+   </url>
+   <url>
+      <loc>https://mickey.io/news-articles</loc>
+   </url>
+
+</urlset>

@@ -1,0 +1,71 @@
+query SINGLE_CONTENT_QUERY($id: ID!) {
+  newsArticle(id: $id) {
+    content
+
+    contentType {
+      node {
+        id
+      }
+    }
+
+    contentTypeName
+    databaseId
+    date
+    dateGmt
+    desiredSlug
+    enclosure
+
+    featuredImage {
+      node {
+        __typename
+        id
+      }
+    }
+
+    featuredImageDatabaseId
+    featuredImageId
+    guid
+    id
+    isContentNode
+    isTermNode
+
+    lastEditedBy {
+      node {
+        id
+      }
+    }
+
+    link
+    modified
+    modifiedGmt
+
+    newsArticles {
+      articleLink
+      day
+      fieldGroupName
+      headline
+
+      image {
+        __typename
+        id
+      }
+
+      month
+      newsArticleSnippet
+      year
+    }
+
+    slug
+    status
+
+    template {
+      templateName
+
+      __typename
+    }
+
+    title
+    uri
+    __typename
+  }
+}
